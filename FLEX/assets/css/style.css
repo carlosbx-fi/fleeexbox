@@ -1,0 +1,129 @@
+body{
+    background-color: #bad;
+    margin: 0;
+    font-family: 'Quicksand';
+}
+
+.main-container{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+}
+.contacts-menu{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    background-color: aliceblue;
+    height: 100vh;
+}
+.contacts{
+    display: flex;
+    flex-direction: column;
+    
+}
+.messages{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.contact{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    border: solid 1px rgb(205, 205, 205);
+}
+.contact img{
+    width: 20%;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+.contact-text-area{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: flex-start;
+    margin: 10px;
+}
+.icons-menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+    padding: 10px;
+}
+.icons-menu{
+    padding: 10px;
+}
+.messages-text-container{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    flex-direction: column;
+}
+.messages-text-container img{
+    justify-content: center;
+    max-width: 50%;
+    border-radius: 5%;
+}
+.messages-text-container p{
+    font-weight: 700;
+    font-size: 30px;
+}
+.messages-text-container span{
+    font-size: 15px;
+}
+.chats-container{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+}
+.chats-menu{
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    height: 100vh;
+    width: 100%;
+}
+.chats{
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px rgb(205, 205, 205);
+    margin: 0%;
+    padding: 10px;
+}
+.chats img{
+    max-width: 25%;
+    border-radius: 50%;
+}
+.button-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.button-menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100px;
+}
+a{
+    display: block;
+    text-decoration: none;
+    background-color: slateblue;
+    padding: 15px;
+    color: white;
+}
